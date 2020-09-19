@@ -1,0 +1,129 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+    /* color: #e7dfd5; */
+}
+
+p
+{
+    font-family: sans-serif;
+    color: #40514e;
+    margin: 0;
+    padding: 2rem;
+}
+h1
+{
+    /* 16px = 100% = 1em
+    use rem as font size for the most
+    responsive and felxible unit*/
+    font-size: 4rem;
+    margin-top: 0;
+    color: #66bfbf;
+}
+h2
+{
+    color: #66bfbf;
+}
+h3
+{
+    color: #11999e;
+}
+hr
+{
+
+    border-width: 7px;
+    color: #eaf6f6;
+    border-style: none;
+    border-top-style: dotted;
+    width: 7%;
+}
+a
+{
+    padding: 5px;
+    text-decoration: none;
+
+}
+a:hover
+{
+    color: #eaf6f6;
+}
+/* ***************************************************CLASSES****************************************************************** */
+.top-cont
+{
+    padding-top: 100px;
+    background-color: #eaf6f6;
+    position: relative;
+}
+
+.middle-cont
+{
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+    /* background-color: #357376; */
+
+}
+.bottom-cont
+{
+    padding-top: 20px;
+    /* background-color: #6ba8a9; */
+    background-color: #66bfbf;
+}
+.top-cloud
+{
+    position: absolute;
+    right: 600px;
+    top: 50px;
+}
+.bottom-cloud
+{
+    position: absolute;
+    bottom: 250px;
+
+}
+.ProPicSize
+{
+    width: 40%;
+}
+.flatImg1
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.flatImg2
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.footer-link
+{
+    margin-bottom: 20px;
+    color: #11999e;
+}
+.skills
+{
+
+    /* background-color: #1d4d4f; */
+}
+.skill-row
+{
+    width: 50%;
+    margin: 9% auto;
+    line-height: 2;
+    text-align: left;
+
+
+}
+.profile
+{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+}
+.fontWeightNorm
+{
+    font-weight: normal;
+}
